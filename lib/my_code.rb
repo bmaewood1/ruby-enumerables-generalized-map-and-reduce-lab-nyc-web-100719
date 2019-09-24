@@ -20,6 +20,7 @@ end
 
 
 def map(array, block)
+  
 
 
 def map_to_negativize(source_array)
