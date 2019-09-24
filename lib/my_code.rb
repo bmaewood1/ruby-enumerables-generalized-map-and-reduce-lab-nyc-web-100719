@@ -24,8 +24,5 @@ reduce(source_array, block) { |sum, n| sum + n }
 
 
 reduce(source_array, block)  { |beTrue, beFalse| beTrue && beFalse }
-end
 
-def reduce_to_any_true(source_array)
-  source_array.any?
-end
+
