@@ -45,3 +45,7 @@ describe 'my own reduce' do
     expect(reduce(source_array){|memo, n| memo && n}).to eq(false)
   end
 end
+
+def reduce(source_array, block)
+  yield source_array.reduce
+end
